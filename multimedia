@@ -1,0 +1,75 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>Multimedia Showcase</title>
+<style>
+body {
+margin: 0;
+background-color: #f4f6f9;
+color: #333;
+}
+h1 {
+background-color: #1e293b;
+color: white;
+padding: 20px;
+text-align: center;
+}
+.content-block {
+padding: 40px 10%;
+}
+h2 {
+margin-bottom: 20px;
+padding-left: 10px;
+}
+video {
+width: 100%;
+max-height: 400px;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+audio {
+width: 100%;
+margin-top: 15px;
+}
+.image-gallery {
+display: flex;
+gap: 30px;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+.image-gallery img {
+width: 250px;
+height: 180px;
+object-fit: cover;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+transition: transform 0.3s ease;
+}
+.image-gallery img:hover {
+transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+<h1>Multimedia Content Showcase</h1>
+<div class="content-block">
+<h2>Video Presentation</h2>
+<video src=""
+autoplay muted loop></video>
+<video src="/327101_tiny.mp4"
+controls></video>
+</div>
+<div class="content-block">
+<h2>Audio Track</h2>
+<audio src="/alexgrohl-dark-mystery-trailer-taking-our-time-131566 (1).mp3" controls></audio>
+</div>
+<div class="content-block">
+<h2>Image Gallery</h2>
+<div class="image-gallery">
+<img src="/balaji.png" alt="Gallery Image 1">
+<img src="/balaji.png" alt="Gallery Image 2">
+<img src="/balaji.png" alt="Gallery Image 3">
+</div>
+</div>
+</body>
+</html>
