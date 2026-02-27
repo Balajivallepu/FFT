@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>navbar</title>
+        <style>
+            body{
+                margin:0px;
+                padding: 0px;
+            }
+            .nav{
+                background-color: yellowgreen;
+                padding: 10px;
+               
+            }
+            .nav,ul{
+                 display: flex;
+                 gap: 30px;
+                 justify-content: end;
+                 margin: 10px;
+            }
+            li{
+                list-style-type: none;
+            }
+            img{
+                text-align: left;
+                width: 100px;
+                height: 50px;
+                margin-right: 250px;
+            }
+            input{
+                height: 30px;
+                margin-top: 15px;
+               
+            }
+            button{
+                height: 30px;
+               margin-top:15px ;
+              margin-right: 200px;
+               background-color: burlywood;
+              border-radius: 5px;
+                border: none;
+                color:beige
+            }
+            a{
+                text-decoration: none;
+            }
+             button:hover{
+                background-color: cadetblue;
+                color:rgb(52, 82, 82);
+
+        </style>
+    </head>
+    <body>
+        
+
+        <div class ="nav">
+            <img src="./balaji1.png" alt="">
+            <input type="text">
+            <button>Search</button>
+            <ul>
+
+                <li><a href="https://one.alliance.edu.in/">Home</a></li>
+                <li>Menu</li>
+                <li>Services</li>
+                <li><a href="https://www.alliance.edu.in/contact-us">Contact</li>a></li>
+                <li><a href="https://www.alliance.edu.in/about-us/about-us">About</a></li>
+
+            </ul>
+
+        </div>
+
+    </body>
+</html>
